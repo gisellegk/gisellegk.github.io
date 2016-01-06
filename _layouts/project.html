@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div id="content">
+    <div id="summary">
+      {{ content }}
+    </div>
+    <ul>
+      {% for post in site.posts %}
+        {% if post.project == page.project %}
+          {% include post-summary.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>
+
