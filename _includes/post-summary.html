@@ -1,5 +1,5 @@
 <li>
-  <a href="{{ post.url }}" class="list-group-item">
+  <a href="{{ post.url }}">
     <h4><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time>: {{ post.title }}</h4>
   </a>
   {{ post.excerpt | markdownify }}
