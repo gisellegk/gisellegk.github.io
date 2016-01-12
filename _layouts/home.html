@@ -2,8 +2,15 @@
 <html>
 {% include head.html %}
 <body>
-  <div id="content">
-    {{ content }}
-  </div>
+  {% include header.html %}
+  {% if site.projects.size > 0 %}
+  <ul id="content">
+    {% for project in site.projects %}
+      <li class="project">
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 </body>
 </html>

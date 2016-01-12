@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {
+  background-color: #302E2F;
+  color: #CAD0D2;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+}
+
+a {
+  color: #7289ac;
+}
+
+div#title {
+  position: fixed;
+  width: 100%;
+  height: 16vh;
+  top: 0;
+  padding: 2vh 1vw;
+  
+  background-color: #7289ac;
+  border-bottom: solid 2vh #bf7d5d;
+  box-shadow: 0 0 0 2vh #b2553b;
+
+}
+
+div#title a{
+  font-family: 'Cutive Mono', ;
+  color: #ebe8e6;
+  font-size: 10vh;
+}
+
+#content {
+  margin-top: 30vh;
+  padding: 0 10vw;
+}
+
+li.project {
+  list-style-type: none;
+  margin: 1rem;
+  border: solid .5vh #cad0d2;
+  padding: 5%;
+  background-color: #6f6864;
+
+}
+li.project a {
+  color: #ebe8e6;
+}

@@ -7,8 +7,6 @@ excerpt_separator: <!--more-->
 
 # own settings
 name: gisellegk.github.io
-domain: gisellegk.github.io
-url: http://gisellegk.github.io
 description: Giselle Koo Portfolio
 copyright: 2016
 author:
@@ -25,7 +23,7 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "post"
   -
     scope:
       path: "posts"
