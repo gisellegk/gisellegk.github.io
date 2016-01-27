@@ -6,6 +6,10 @@ published: true
 
 I replaced the lining on my skirt. I'm thinking of revisiting the idea of having tulle in the back of the skirt to suggest nebulae. I also chalked out places where the LEDs and WS2811's could be sewn. 
 
+<!--more-->
+Here's kind of a funny looking schematic I worked on:
+![schematic?](/assets/img/2016-01-08-star-stuff.jpg)
+
 Gemma - 9 mA
 LEDs - 20 mA (please power from battery 5v not gemma's 3.3v)
 

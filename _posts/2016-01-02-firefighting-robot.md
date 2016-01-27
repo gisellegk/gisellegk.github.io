@@ -12,4 +12,4 @@ We might be able to get funding from someone from IEEE, so we are hoping to make
 
 I wanted to have the robot use swerve drive. It has always been really cool to see it implemented in FRC robots I saw in high school. I'd never gotten the chance to design anything while in FRC, so I want to take this chance to do it myself. 
 
-![Vague preliminary sketch](/assets/img/2016-1-2-swerve-drive.jpg)
+![Vague preliminary sketch](/assets/img/2016-01-02-swerve-drive.jpg)
