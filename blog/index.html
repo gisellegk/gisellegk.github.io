@@ -3,7 +3,7 @@ title: All Posts
 published: true
 ---
 
-<ul>
+<ul id="post-container" class="gray-dotted">
   {% for post in paginator.posts %}
     {% include post-summary.html %}
   {% endfor %}

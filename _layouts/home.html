@@ -4,13 +4,15 @@
 <body>
   {% include header.html %}
   {% if site.projects.size > 0 %}
-  <ul id="content">
-    {% for project in site.projects %}
-      <li class="project">
-        <a href="{{ project.url }}">{{ project.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+  <div id="content">
+    <ul id="project-container" class="gray-dotted">
+      {% for project in site.projects %}
+        <li class="project">
+          <a class="project-title" href="{{ project.url }}">{{ project.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </body>
 </html>

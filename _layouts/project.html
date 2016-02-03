@@ -7,7 +7,7 @@
     <div id="summary">
       {{ content }}
     </div>
-    <ul id="posts">
+    <ul id="post-container" class="gray-dotted">
       {% for post in site.posts %}
         {% if post.project == page.project %}
           {% include post-summary.html %}
@@ -17,4 +17,3 @@
   </div>
 </body>
 </html>
-
