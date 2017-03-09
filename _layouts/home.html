@@ -7,8 +7,8 @@
   <div id="content">
     <ul id="project-container" class="gray-dotted">
       {% for project in site.projects %}
-        <li class="project">
-          <a class="project-title" href="{{ project.url }}">{{ project.title }}</a>
+        <li class="project" style="background-image:url({{ site.url }}/assets/img/{{project.project}}.png)">
+          <a class="project-title" href="{{ project.url }}"><p>{{ project.title }}</p></a>
         </li>
       {% endfor %}
     </ul>

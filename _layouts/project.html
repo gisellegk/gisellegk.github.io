@@ -6,14 +6,7 @@
   <div id="content">
     <div id="summary">
       {{ content }}
-    </div>
-    <ul id="post-container" class="gray-dotted">
-      {% for post in site.posts %}
-        {% if post.project == page.project %}
-          {% include post-summary.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
+    </div>    
   </div>
 </body>
 </html>
