@@ -1,9 +1,0 @@
-<li class="post-summary">
-  <a href="{{ post.url }}">
-    <h4 class="post-title"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time>: {{ post.title }}</h4>
-  </a>
-  {{ post.excerpt | markdownify }}
-  {% if post.content contains site.excerpt_separator %}
-    <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
-  {% endif %}
-</li>

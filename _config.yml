@@ -1,14 +1,9 @@
 timezone: America/New_York
 
-paginate: 8
-paginate_path: '/blog/:num'
-
-excerpt_separator: <!--more-->
-
 # own settings
 name: gisellegk.github.io
 description: Giselle Koo Portfolio
-copyright: 2016
+copyright: 2017
 author:
     name: Giselle Koo
     github_link: https://github.com/gisellegk
@@ -23,15 +18,9 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "post"
-  -
-    scope:
-      path: "posts"
-    values:
-      layout: "post"
+      layout: "basic"
   -
     scope:
       path: "projects"
     values:
       layout: "project"
-
