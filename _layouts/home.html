@@ -3,8 +3,11 @@
 {% include head.html %}
 <body>
   {% include header.html %}
-  {% if site.projects.size > 0 %}
   <div id="content">
+    <div id="links">
+    {{ content }}
+    </div>
+    {% if site.projects.size > 0 %}
     <ul id="project-container" class="gray-dotted">
       {% for project in site.projects %}
         <li class="project" style="background-image:url({{ site.url }}/assets/thumb/{{project.project}}.png)">
