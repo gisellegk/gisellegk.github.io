@@ -4,3 +4,10 @@ project: stormfly-amigurumi
 published: true
 completed: true
 ---
+## About
+A crochet amigurumi (stuffed animal) likeness of Stormfly, a dragon from the How To Train Your Dragon movie series.
+
+## Images
+<img src="https://images4-b.ravelrycache.com/uploads/sachiaoitori/246007155/IMG_20140807_241947_618_medium2.jpg">
+
+<img src="https://images4-b.ravelrycache.com/uploads/sachiaoitori/246007154/IMG_20140807_242101_424_medium2.jpg">
