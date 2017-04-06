@@ -18,8 +18,13 @@ body {
   text-align: center;
 }
 
+#content img {
+  max-width: 80vw;
+}
+
 a {
   color: #7289ac;
+  text-decoration: none;
 }
 
 div#title {
@@ -88,5 +93,9 @@ li.project {
 .project-title p {
   top: 6vmax;
   padding: 1vh 1vw;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.project-title p:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
