@@ -17,3 +17,8 @@ The light strings are made up of WS2811 LEDs, assembled by students from the Sec
 [Arduino Code file with student samples](https://github.com/SDMS/sdmshoc2015/blob/master/HolidayTree/HolidayTree.ino)
 
 [Instructions page](http://sdms.github.io/sdmshoc2015/holiday-lights.html)
+
+## Images
+<img src="{{site.url}}/assets/img/holidaylights.png">
+
+Tree with a student's rainbow light code.
