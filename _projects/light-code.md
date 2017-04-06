@@ -22,4 +22,5 @@ Light Code was featured at the MLH Office Gallery as a part of their Hack on Loa
 
 ## Images
 <img src="{{site.url}}/assets/img/wichacks-light-code.png" style= "width:50vw;">
+
 LightCode prototype at the MLH Office Gallery.
