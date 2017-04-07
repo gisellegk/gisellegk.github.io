@@ -96,6 +96,6 @@ li.project {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.project-title p:hover {
+.project-title:hover p {
   background-color: rgba(0, 0, 0, 0.8);
 }
