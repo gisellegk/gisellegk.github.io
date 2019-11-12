@@ -70,3 +70,75 @@ div#part-two {
 img#three{
   width:100%;
 }
+
+img#four{
+  width:40vw;
+  margin: 2vh 4vw;
+  float:left;
+}
+
+img#five{
+  width:40vw;
+  margin: 2vh 4vw;
+  float:right;
+}
+
+div#part-three {
+  margin: 5vh 2vw;
+  padding: 0;
+  display:flow-root;
+}
+
+.text{
+  margin: 5vh 2vw;
+  padding: 0;
+
+}
+
+div#part-four {
+  margin: 5vh 2vw;
+  padding: 0;
+}
+
+
+.square{
+  height: 40vw;
+  margin: 2vh 4vw;
+  padding: 2vw;
+}
+
+img#seven{
+  width:30vw;
+  margin: 2vh 4vw;
+  float:left;
+}
+
+img#nine{
+  width:30vw;
+  margin: 2vh 4vw;
+  float:right;
+}
+
+img#eight{
+  width:100%;
+}
+#part-five {
+  width:100%;
+  display: flow-root;
+  position: relative;
+}
+#part-five p{
+  width: 20vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin: 5vh 40vw;
+  margin-top: -50px;
+
+  padding: 0;
+}
+
+#last{
+  width:100%;
+}
