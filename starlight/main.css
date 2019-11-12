@@ -142,3 +142,9 @@ img#eight{
 #last{
   width:100%;
 }
+
+#appendix{
+  text-align: center;
+  width: 25vw;
+  margin: 2vh 35vw;
+}
