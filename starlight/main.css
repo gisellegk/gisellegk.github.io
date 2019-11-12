@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+  background-color:#090e29;
+  color: #CAD0D2;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Cutive Mono', sans-serif;
+}
+
+div#zero {
+
+  width: 100%;
+  top: 0;
+  padding: 2vh 0;
+
+  background-image: url('./img/0.jpg');
+  background-size: cover;
+
+  box-shadow: 0 0 0 1vh black,
+              -10px 4vh 40px -12px black;
+  -moz-box-shadow: 0 0 0 1vh black,
+                  -10px 4vh 40px -12px black;
+  -webkit-box-shadow: 0 0 0 1vh black,
+                     -10px 4vh 40px -12px black;
+}
+
+div#zero div{
+  padding: 5vh 5vw;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #CAD0D2;
+  font-size: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+div#part-one {
+  margin: 5vh 2vw;
+  padding: 0;
+}
+
+img#one {
+  width:54vw;
+}
+
+div#part-one div#side{
+  width: 34vw;
+  float: right;
+}
+
+#side p {
+  width: 25w;
+  height: 13em;
+  float:center;
+}
+
+img#two{
+  padding: 6vh 2vw;
+  width:30vw;
+}
+
+div#part-two {
+  margin: 5vh 2vw;
+  padding: 0;
+}
+
+img#three{
+  width:100%;
+}
