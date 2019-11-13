@@ -1,13 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+<!-- Hello!
+I coded all of this in 1 day for the brooke owens fellowship
+It's also been a few years since I've done extensive web dev.
+So it is quite messy! Just like life!
+-->
+
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 
 body {
   background-color:#090e29;
   color: #CAD0D2;
-  margin: 0;
-  font-size: 20px;
-  font-family: 'Cutive Mono', sans-serif;
+  margin: 0, 10vw;
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif;
 }
+
+a {
+  color: #ffffff;
+}
+
 
 div#zero {
 
@@ -145,6 +156,10 @@ img#eight{
 
 #appendix{
   text-align: center;
-  width: 25vw;
-  margin: 2vh 35vw;
+  width: 100%;
+
+}
+
+.append {
+  width: 15vw;
 }
