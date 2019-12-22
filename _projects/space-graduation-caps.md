@@ -2,7 +2,7 @@
 title: Space Graduation Caps
 project: space-graduation-caps
 published: true
-completed: true
+year: 2015
 ---
 ## About
 A series of graduation caps painted with nebulae. One of them features white LED stars and a custom PCB with a microcontroller, to randomly fade/twinkle the stars.

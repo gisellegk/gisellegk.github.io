@@ -2,7 +2,7 @@
 title: Candlefinder
 project: candlefinder
 published: true
-completed: false
+year: 2018
 ---
 
 ## About

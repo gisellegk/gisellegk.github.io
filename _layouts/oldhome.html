@@ -4,15 +4,14 @@
 <body>
   {% include header.html %}
   <div id="content">
+    <div id="links">
     {{ content }}
-
-
+    </div>
     {% if site.projects.size > 0 %}
-    {% assign ordered_projects = site.projects | sort:"year" | reverse %}
-    <ul id="project-container">
-      {% for project in ordered_projects %}
+    <ul id="project-container" class="gray-dotted">
+      {% for project in site.projects %}
         <li class="project" style="background-image:url({{ site.url }}/assets/thumb/{{project.project}}.png)">
-          <a class="title" href="{{ project.url }}"><p>{{ project.title }}</p><div class="year">{{project.year}}</div></a>
+          <a class="project-title" href="{{ project.url }}"><p>{{ project.title }}</p></a>
         </li>
       {% endfor %}
     </ul>

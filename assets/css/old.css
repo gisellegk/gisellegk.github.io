@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+  background-color: #302E2F;
+  color: #CAD0D2;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Cutive Mono', sans-serif;
+}
+
+#content {
+  margin-top: 20vh;
+  padding: 0 10vw;
+}
+
+#content #links {
+  text-align: center;
+}
+
+#content img {
+  max-width: 80vw;
+}
+
+a {
+  color: #7289ac;
+  text-decoration: none;
+}
+
+div#title {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  padding: 2vh 1vw;
+
+  background-color: #7289ac;
+  border-bottom: solid 1vh #bf7d5d;
+  box-shadow: 0 0 0 1vh #ab4326,
+              -10px 4vh 40px -12px black;
+  -moz-box-shadow: 0 0 0 1vh #ab4326,
+                  -10px 4vh 40px -12px black;
+  -webkit-box-shadow: 0 0 0 1vh #ab4326,
+                     -10px 4vh 40px -12px black;
+}
+
+div#title a{
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: #CAD0D2;
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.gray-dotted li {
+  border-top: dotted .5vh #CAD0D2;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 4px 4px 15px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 4px 15px 3px rgba(0,0,0,0.5);
+  box-shadow: 4px 4px 15px 3px rgba(0,0,0,0.5);
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+li.project {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 1rem;
+  width: 12vmax;
+  height: 12vmax;
+  min-width: 75px;
+  min-height: 75px;
+  text-align: center;
+  background-size: 25vw;
+  background-position: center;
+}
+
+.project-title {
+  font-size: calc(8px + 1vmax);
+  color: #ebe8e6;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.project-title p {
+  top: 6vmax;
+  padding: 1vh 1vw;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.project-title:hover p {
+  background-color: rgba(0, 0, 0, 0.8);
+}

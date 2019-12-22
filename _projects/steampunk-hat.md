@@ -2,7 +2,7 @@
 title: Mini Steampunk Hat
 project: steampunk-hat
 published: true
-completed: true
+year: 2017
 ---
 
 ## About

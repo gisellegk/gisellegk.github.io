@@ -2,7 +2,7 @@
 title: Learn to Solder pin
 project: learn-to-solder-pin
 published: false
-completed: false
+year: 2017
 ---
 
 ## About

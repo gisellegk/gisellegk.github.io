@@ -2,7 +2,7 @@
 title: Holiday Lights
 project: holiday-lights
 published: true
-completed: true
+year: 2015
 ---
 ## About
 

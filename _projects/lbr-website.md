@@ -2,7 +2,7 @@
 title: Let's Build Rockets Website
 project: lbr-website
 published: true
-completed: true
+year: 2017
 ---
 
 ## About

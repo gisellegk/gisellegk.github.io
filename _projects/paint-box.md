@@ -2,7 +2,7 @@
 title: Wooden Paint Box
 project: paint-box
 published: true
-completed: true
+year: 2017
 ---
 ## About
 A graduation present for my best friend, who earned her Bachelor's in Economics at the University of Chicago in 2017.
