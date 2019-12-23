@@ -57,7 +57,7 @@ body {
   }
 
 
-  /* Projects */
+  /* Project Icons */
 
   #project-container {
     display: flex;
@@ -112,3 +112,52 @@ body {
     padding: 1rem;
 
   }
+
+
+/* Page Styles */
+
+#content {
+  margin: 0 20vw;
+}
+
+#content h1{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 59vw;
+  text-align: center;
+  margin:0;
+}
+
+#thumb {
+  margin: 0 12vw;
+  overflow: hidden;
+  width: 36vmax;
+  height: 20vmax;
+  background-size: 37vw;
+  background-position: center;
+}
+
+/* from image gallery */
+ul.image-gallery {display: flex; flex-wrap: wrap; justify-content: center; overflow: auto; padding: 0;}
+.image-gallery li { list-style-type: none; margin: 0 0 1% 1%; width: 19%;}
+.image-gallery li a { text-align: center; text-decoration: none!important; color: #777;}
+.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+.image-gallery li a img {width: 100%; display: block;}
+
+h3.image-gallery {
+  width: 59vw;
+  text-align: center;
+  margin:0;
+}
+p.image-gallery {
+  font-size: .8em;
+  width: 59vw;
+  text-align: center;
+  margin: 0;
+}
+/* IG video blocks */
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: center;
+  justify-content: space-evenly;
+}

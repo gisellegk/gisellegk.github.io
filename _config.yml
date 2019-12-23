@@ -21,6 +21,6 @@ defaults:
       layout: "basic"
   -
     scope:
-      path: "projects"
+      path: "_projects"
     values:
       layout: "project"

@@ -3,9 +3,8 @@
 {% include head.html %}
 <body>
   {% include header.html %}
-  <div id="content">
-    {{ content }}
 
+    {{ content }}
 
     {% if site.projects.size > 0 %}
     {% assign ordered_projects = site.projects | sort:"year" | reverse %}
@@ -17,6 +16,6 @@
       {% endfor %}
     </ul>
     {% endif %}
-  </div>
+
 </body>
 </html>
