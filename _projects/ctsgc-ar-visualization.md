@@ -35,7 +35,7 @@ These packets were received with the Hololens Bluetooth module. I assisted Austi
 {% include image-gallery.html folder="/assets/img/ctsgc-ar-visualization" %}
 
 <div class="videos">
-<iframe src="https://drive.google.com/file/d/0B_S9H2AY2UyESjJCbzB2MlJyUFFCcGZfSUhjeVh0Ql9XRUhN/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1hsG-7OFaZ7a6wAcbC8UoxqRq8nXH-CYS/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1gi7ZVDLinleVf_q4mEAnGIsIgdeeq1PR/preview" width="640" height="480"></iframe>
+    <iframe src="/assets/files/ctsgc-ar-visualization/2019ARposter.pdf#toolbar=0" width="100%" height="750px"></iframe>
+    <iframe src="https://drive.google.com/file/d/1hsG-7OFaZ7a6wAcbC8UoxqRq8nXH-CYS/preview" width="640" height="480"></iframe>
+    <iframe src="https://drive.google.com/file/d/1gi7ZVDLinleVf_q4mEAnGIsIgdeeq1PR/preview" width="640" height="480"></iframe>
 </div>
