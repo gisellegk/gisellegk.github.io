@@ -4,7 +4,7 @@ project: ecen2440-rocket-payload
 published: true
 year: 2019
 ---
-
+<!-- TODO: posts about LTSpice/power simulations, 3 filters, PCB art -->
 ## About
 This is a model rocket payload that collects and logs altimeter data for later analysis. In addition, it has a radio module that outputs a morse code signal in order to assist in locating the rocket once it has landed. 
 
@@ -14,13 +14,36 @@ This project was completed as the final project for ECEN 2440 - Embedded Systems
 There were two functional components to this project: the data logging system and the radio system. Both were controlled by the main microcontroller, a MSP432 launchpad. 
 
 #### Data Logging
-This component consists of an ICP-1000 altimeter which sends temperature and barometric pressure readings to the MSP432 using I2C. The MSP then sends this data to a Teensy 3.6 via UART, which logs the data to its onboard microSD card. 
+This component consists of an ICP-10100 altimeter which sends temperature and barometric pressure readings to the MSP432 using I2C. The MSP then sends this data to a Teensy 3.6 via UART, which logs the data to its onboard microSD card. 
 
 During initial conception of this project, we envisioned a payload that could log data to suit the needs of different launches. In order to limit the scope of this project so that we could complete it in six weeks, we decided to limit ourselves to just one sensor. An altimeter seemed to make the most sense for a model rocket, for peak altitude recording as well as future use for parachute deployment. In addition, we chose to use the Teensy to handle our data logging in order to easily meet our UART requirement, as well as avoiding the difficult task of writing both a SPI and SD card driver from scratch, although we did break out the pins we would need to directly connect an SD card in the future. 
 
 For both I2C and UART communication protocols, we utilized the Enhanced Universal Serial Communication Interface (EUSCI) modules onboard the MSP432. The [UART driver](https://github.com/gisellegk/ECEN2440-final-project/blob/master/Code/Integrated%20Rocket%20Code/teensy_uart.c) is interrupt-driven, using built in interrupt flags. In our case, we use the RX interrupt flag, which is raised when data is received and ready to read in the RX Buffer, and the TX interrupt flag, which is raised when the TX buffer has been cleared and the module is ready to transmit another byte of data. The MSP432 stores points of data and CRC values from the altimeter in a 9-byte long buffer, and then sends each one in order before requesting the next point of data. This ensures that the data is always sent in the correct order so that we can parse it later, and that full data points associated with a specific point in time will always be received by the Teensy and logged in order. In the future, I hope to implement a circular buffer that logs several of these 9-byte data points, in order to increase or data sampling rate. 
 
 #### Radio Beacon
+This component consists of a 144MHz radio transmitter, transmitting a simple CW signal for the purpose of "foxhunting" the rocket once it lands, in order to help us locate it on the ground.
+
+This is my first time designing a board with considerations for RF design. Because of this, we knew that it was the riskiest part of the payload, and decided to design it as a separate breakout module that can be easily removed from the main shield. We used the inexpensive DRA818v module and used it to transmit an audio sine wave that was generated using delta-sigma modulation on MSP432. Because we are transmitting at 144MHz (2 meter ham band) we need to identify ourselves, so we decided to transmit my call sign (KC1KKR) in Morse code using On-off keying (OOK). 
+
+Unfortunately we had a shipping mishap with the transmission filter component, so we were unable to test the board. Currently working on getting this functional in preparation for an early 2020 test launch. 
+
+#### Power System
+We had to select two voltage regulators - a 4V regulator for the radio and a 3.3v regulator for everything else. 
+
+For each regulator, we did analysis on
+
+- Input Voltage limits
+- Max current output
+- Thermal power dissipation
+- Voltage Drop Out based on discharge profile
+- Monte Carlo variations for adjustable power supplies
+
+We used a combination of paper calculations and simulations using LTSpice and PSpice (depending on SPICE model availability). 
+
+### Launch!
+We launched at the [Northern Colorado Rocketry Club's Atlas Launch Site](https://ncrocketry.club/about-us/locations/atlas-site/) on December 7th, 2019. We launched on an H motor, which is relatively underpowered, but suitable for an initial test launch. 
+
+Unfortunately we had an issue where the payload disconnected from the parachute - so the parachute did deploy but the shock cord had slipped off. The back end of the rocket landed safely but the front one sustained quite a bit of damage. Since we used the smaller motor, it didn't fall from too high, so we were able to recover the system. The microSD card was shattered, and the level shifter IC on the altimeter board sheared off, but we were able to replace that IC and have the system fully functional again for the Final Project Expo. 
 
 ## Resources
 - [GitHub Repository](https://github.com/gisellegk/ECEN2440-final-project)
