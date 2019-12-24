@@ -15,5 +15,7 @@ The code is open-source and available to view on GitHub.
 ## Resources
 - [Website link](https://github.com/letsbuildrockets/letsbuildrockets.github.io)
 
-## Images
+## Media
+<div class="videos">
 <img src="{{site.url}}/assets/img/lbr-screenshot.png">
+</div>

@@ -20,7 +20,5 @@ Light Code was featured at the MLH Office Gallery as a part of their Hack on Loa
 * [DevPost project page](https://devpost.com/software/light-code)
 * [See a demo](https://youtu.be/sbjNLAihfJ0)
 
-## Images
-<img src="{{site.url}}/assets/img/wichacks-light-code.png" style= "width:50vw;">
-
-LightCode prototype at the MLH Office Gallery.
+## Media
+{% include image-gallery.html folder="/assets/img/light-code" %} 
