@@ -11,7 +11,7 @@
     <ul id="project-container">
       {% for project in ordered_projects %}
         <li class="project" style="background-image:url({{ site.url }}/assets/thumb/{{project.project}}.png)">
-          <a class="title" href="{{ project.url }}"><p>{{ project.title }}</p><div class="year">{{project.year}}</div></a>
+          <a href="{{ project.url }}"><div class="title">{{ project.title }}<div class="year">{{project.year}}</div></div></a>
         </li>
       {% endfor %}
     </ul>
