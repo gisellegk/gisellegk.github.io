@@ -33,9 +33,11 @@ The circuit that drives this orrery is made of logic ICs - no microcontroller an
 
 The stepper motor "driver" board I used was a little ULN2003A breakout - it has convenient connectors, some built in passives, and indicator LEDs that show you which coil is being energized (great for debugging!). So to spin the motor, you need to energize the coils in sequential order.
 
+The whole system was powered off of a 5V USB power bank, using a 
+
 <a href="{{site.url}}/assets/img/orrery-grad-cap/schematic.png"><img class="inline-img" src="{{site.url}}/assets/img/orrery-grad-cap/schematic.png"></a>
 
-I drew this schematic based on the board 7 months after the fact, since I can't find the original. There are 2 555 timers on the board, but the 2nd one is apparently not hooked up to anything, and I don't remember why it was originally there. 
+I drew this schematic based on the board 7 months after the fact, since I can't find the original. There are 2 555 timers on the board, but the 2nd one is not hooked up. I believe it was originally to control the final pulse width of the output of the stepper motor, but that was scrapped. 
 
 The timer that _is_ connected is configured as an [astable multivibrator](https://www.jameco.com/Jameco/workshop/TechTip/555-timer-tutorial.html) and serves as a clock, setting the speed for the whole system. 
 
