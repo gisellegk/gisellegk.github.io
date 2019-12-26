@@ -141,6 +141,11 @@ li.project .year {
   background-position: center;
 }
 
+.inline-img{
+  width:50%; 
+  margin: 0 25%;
+}
+
 /* from image gallery */
 ul.image-gallery {display: flex; flex-wrap: wrap; justify-content: center; overflow: auto; padding: 0;}
 .image-gallery li { list-style-type: none; margin: 0 0 1% 1%; width: 19%;}
