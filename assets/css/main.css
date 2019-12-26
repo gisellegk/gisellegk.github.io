@@ -99,7 +99,7 @@ body {
     align-content: center;
       
     text-decoration: none;
-    font-size: calc(20px + 1vmax);
+    font-size: calc(2.5vw);
 
   }
 
@@ -115,7 +115,7 @@ body {
   }
 
 li.project .year {
-  font-size: 20px;
+  font-size: 1vw;
   font-family: 'Spectral', serif;
 }
 
