@@ -33,7 +33,7 @@ The circuit that drives this orrery is made of logic ICs - no microcontroller an
 
 The stepper motor "driver" board I used was a little ULN2003A breakout - it has convenient connectors, some built in passives, and indicator LEDs that show you which coil is being energized (great for debugging!). So to spin the motor, you need to energize the coils in sequential order.
 
-The whole system was powered off of a 5V USB power bank, using a 
+The whole system was powered off of a 5V USB power bank, using a cut off USB cable that's long enough to hide the battery in a pocket. 
 
 <a href="{{site.url}}/assets/img/orrery-grad-cap/schematic.png"><img class="inline-img" src="{{site.url}}/assets/img/orrery-grad-cap/schematic.png"></a>
 
