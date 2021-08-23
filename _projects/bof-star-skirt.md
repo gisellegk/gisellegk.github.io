@@ -27,7 +27,7 @@ The LEDs and SMD board components were soldered by hand. The 0402 resistors and 
 I did a photoshoot with [Fayth Krause](https://www.instagram.com/squirrelbait.photos/) and put together a webpage based multimedia essay that spoke about how this skirt was part of my journey as an aspiring engineer, astronomer, and dreamer. 
 
 ## Resources
-- ["Starlight" submission](http://localhost:4000/starlight/)
+- ["Starlight" submission]({{site.url}}/starlight/)
 - [twinkle Arduino code](https://github.com/gisellegk/twinkle)
 - [Eagle files](https://github.com/gisellegk/ws2811_breakout)
 
