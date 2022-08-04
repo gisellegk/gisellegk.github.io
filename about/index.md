@@ -10,7 +10,7 @@ Hi, I'm Giselle! I'm an Electrical and Computer Engineering student at CU Boulde
 
 I'm also a co-founder of [Let's Build Rockets Inc](http://www.letsbuildrockets.org/), an educational nonprofit that releases open source hardware and software resources on robotics and rocketry.
 
-Back in Connecticut, I mentored the [Farmington FIRST Robotics team](http://www.farmingtonrobotics.org/) for many years! Now that I've moved westwards, my new home team is [Inov8](https://www.thebluealliance.com/team/7891/) out of Longmont. 
+Back in Connecticut, I mentored the [Farmington FIRST Robotics team](http://www.farmingtonrobotics.org/) for many years! 
 
 
 ## Contact
@@ -18,4 +18,4 @@ Back in Connecticut, I mentored the [Farmington FIRST Robotics team](http://www.
 Email me at gisellegk(at)gmail.com.
 
 ## Resume
-[Click here to view my resume.]({{site.url}}/assets/files/GiselleKooResume.pdf)
+[Click here to view my resume.](https://docs.google.com/document/d/1LlqIDzPPvs4S1EmaGkjbWyPmnxhp4C-W4g8-i9GSOME/edit)
