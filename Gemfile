@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'tzinfo-data'
+gem 'csv'
+gem 'bigdecimal'
+gem 'liquid', '4.0.4'
